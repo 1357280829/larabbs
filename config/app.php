@@ -1,5 +1,7 @@
 <?php
 
+use App\Providers\HelperServiceProvider;
+
 return [
 
     /*
@@ -175,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //  辅助函数
+        App\Providers\HelperServiceProvider::class,
     ],
 
     /*
